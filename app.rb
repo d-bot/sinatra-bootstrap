@@ -3,6 +3,7 @@ require 'sinatra'
 
 configure do
   enable :sessions
+  set :port, 9393
 end
 
 helpers do
